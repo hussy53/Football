@@ -1,0 +1,106 @@
+*{
+  margin-left:0;
+  padding:0;
+}
+#soccer_field,.topHalf,.bottomHalf{
+  position: absolute;
+  width:100%;
+}
+
+
+#TEAM1_GK  {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  font-size: 3em;
+  display: inline-flex;
+}
+
+#TEAM1_DEF {
+  position: absolute;
+  transform: translate(-50%, 250%);
+  left: 50%;
+  font-size: 3em;
+  display: inline-flex;
+  width: 700px;
+  justify-content: space-between;
+  /*background-color: red;
+  align-items: center;*/
+}
+
+#TEAM1_MID {
+  position: absolute;
+  transform: translate(-50%, 400%);
+  left: 50%;
+  font-size: 3em;
+  display: inline-flex;
+  width: 700px;
+  justify-content: space-between;
+  /*background-color: red;
+  align-items: center;*/
+}
+
+#TEAM1_ST {
+  position: absolute;
+  transform: translate(-50%, 600%);
+  left: 50%;
+  font-size: 3em;
+  display: inline-flex;
+  width: 700px;
+  justify-content: space-between;
+  /*background-color: red;
+  align-items: center;*/
+}
+
+#TEAM2_GK  {
+  position: absolute;
+  transform: translate(-50%, 1300%);
+  left: 50%;
+  font-size: 3em;
+  display: inline-flex;
+}
+
+#TEAM2_DEF {
+  position: absolute;
+  transform: translate(-50%, 1100%);
+  left: 50%;
+  font-size: 3em;
+  display: inline-flex;
+  width: 700px;
+  justify-content: space-between;
+  /*background-color: red;
+  align-items: center;*/
+}
+
+#TEAM2_MID {
+  position: absolute;
+  transform: translate(-50%, 900%);
+  left: 50%;
+  font-size: 3em;
+  display: inline-flex;
+  width: 700px;
+  justify-content: space-between;
+  /*background-color: red;
+  align-items: center;*/
+}
+
+#TEAM2_ST {
+  position: absolute;
+  transform: translate(-50%, 750%);
+  left: 50%;
+  font-size: 3em;
+  display: inline-flex;
+  width: 700px;
+  justify-content: space-between;
+  /*background-color: red;
+  align-items: center;*/
+
+}
+
+div.TEAM1_playerpositions {
+  display: block;
+}
+
+div.TEAM2_playerpositions {
+  display: block;
+}

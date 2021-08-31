@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="football.css">
+<script type="text/javascript" src="football.js"></script>
+</head>
+<body>
+  <div class="Introduction">
+      <h1>Welcome to WLF - Mon (10:00 - 11:00)!</h1>
+  </div>
+    <hr>
+    <h2>PLAYER FORM</h2>
+
+    Player Count: <select name="playerCount" id="playerCount" >
+        <option value=disabled>Choose number of players</option>
+        <option value="6">6v6</option>
+        <option value="7">7v7</option>
+        <option value="8">8v8</option>
+        <option value="9">9v9</option>
+        <option value="10">10v10</option>
+        <option value="11">11v11</option>
+    </select>
+    <button type="button" onclick="selectOption();">Submit</button>
+
+    <form onsubmit="changetext()" id="myForm">
+
+        Name: <input type ="text" id ="input_text" >
+        <label for="playerPositions">Position:</label>
+
+        <select name="position" id="position">
+            <option value="disabled">Choose position</option>
+
+        </select>
+        <button type='button' onclick="changePlayerName()">submit</button>
+
+    </form>
+    <hr>
+
+
+  <div id="field">
+    <div>
+      <img id="soccer_field" src="Soccer_Field_Transparant.png" alt="soccer-field">
+    </div>
+    <div class="topHalf">
+      <div class="TEAM1_playerpositions" id="TEAM1">
+        <div id="TEAM1_GK"></div>
+        <div id="TEAM1_DEF"></div>
+        <div id="TEAM1_MID"></div>
+        <div id="TEAM1_ST"></div>
+      </div>
+    </div>
+
+    <div class="bottomHalf">
+      <div class="TEAM2_playerpositions" id="TEAM2">
+        <div id="TEAM2_GK"></div>
+        <div id="TEAM2_DEF"></div>
+        <div id="TEAM2_MID"></div>
+        <div id="TEAM2_ST"></div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
